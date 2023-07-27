@@ -20,5 +20,5 @@ The app is built using vanilla JavaScript, with no libraries or frameworks allow
 
 # Acknowledgements
 This project was developed as part of Skill Test in Coding Ninjas, and it was inspired by the need to create a meal app using only vanilla JavaScript
-#Contact
+# Contact
 * rutujatembhurne16@gmail.com
