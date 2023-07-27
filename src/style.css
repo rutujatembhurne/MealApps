@@ -1,0 +1,106 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@300&display=swap');
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  background-color: #030110;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #000000c5;
+}
+
+#fav {
+  color: #33d113;
+}
+
+/* Searchbox Styles */
+.searchbox {
+  margin: 0;
+  width: 40%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: .8rem 2rem .8rem 1rem;
+  outline: none;
+  border: none;
+  background-color: #23212E;
+  color: white;
+}
+
+.searchbutton {
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: #23212E;
+  margin: 0;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: .8rem 1rem;
+  margin-left: -1.9%;
+}
+
+i {
+  color: #33d113;
+}
+
+/* Recipe List Styles */
+.recipe-list {
+  margin: auto;
+}
+
+/* Card Styles */
+.card {
+  background-color: #23212E;
+  border-radius: 20px;
+  color: #CFCECE
+}
+
+/* Button Styles */
+.btn-warning {
+  background: rgb(34, 185, 14);
+  background: linear-gradient(90deg, rgb(6, 143, 61) 1%, rgb(7, 158, 73) 30%, rgb(80, 185, 14) 66%);
+  border-radius: 20px;
+  padding: 0.4rem 2rem;
+  color: white!important;
+}
+
+.white{
+  color: white;
+}
+
+/* Food Widget Styles */
+.food-wid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Heading Styles */
+#heading2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
+  background: rgb(34, 185, 14);
+  background: linear-gradient(90deg, rgb(6, 143, 61) 1%, rgb(7, 158, 73) 30%, rgb(14, 185, 23) 66%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading{
+  font-family: 'Anton', sans-serif;
+}
+
+/* Recipe Intro Styles */
+#recipe-intro{
+  font-weight: lighter!important;
+  word-spacing: 0.3rem;
+}
